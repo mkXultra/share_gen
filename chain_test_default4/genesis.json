@@ -1,5 +1,5 @@
 {
-  "genesis_time": "2022-06-13T09:26:23.034102069Z",
+  "genesis_time": "2022-06-13T09:47:06.990579926Z",
   "chain_id": "ununifi-test-private-m1",
   "initial_height": "1",
   "consensus_params": {
@@ -48,6 +48,20 @@
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "ununifi1d6zd6awgjxuwrf4y863c9stz9m0eec4ghfy24c",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "ununifi1wgjh88unam4tuln0ju6l6q6cd08zk2vs87uytv",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
         }
       ]
     },
@@ -60,6 +74,36 @@
         "default_send_enabled": true
       },
       "balances": [
+        {
+          "address": "ununifi1d6zd6awgjxuwrf4y863c9stz9m0eec4ghfy24c",
+          "coins": [
+            {
+              "denom": "ubtc",
+              "amount": "100000000000"
+            },
+            {
+              "denom": "uguu",
+              "amount": "100000000000"
+            }
+          ]
+        },
+        {
+          "address": "ununifi1wgjh88unam4tuln0ju6l6q6cd08zk2vs87uytv",
+          "coins": [
+            {
+              "denom": "jpu",
+              "amount": "100000000000"
+            },
+            {
+              "denom": "ubtc",
+              "amount": "100000000000"
+            },
+            {
+              "denom": "uguu",
+              "amount": "100000000000"
+            }
+          ]
+        },
         {
           "address": "ununifi1a8jcsmla6heu99ldtazc27dna4qcd4jygsthx6",
           "coins": [
@@ -218,7 +262,7 @@
                 "validator_address": "ununifivaloper1a8jcsmla6heu99ldtazc27dna4qcd4jyav7ss4",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "dqldfXGgak6Gl+uE8hPvymlbJMtHaOkxGKxrApwgpkk="
+                  "key": "Zm8S/uPi0bjBmON37dSYIyr59Ikz6qhlXlF5+duBo1Q="
                 },
                 "value": {
                   "denom": "uguu",
@@ -226,7 +270,7 @@
                 }
               }
             ],
-            "memo": "1510cc5df6f2b28aaa937a72660654ae5d8799e0@172.25.39.132:26656",
+            "memo": "04b1aaaa5dca30c41628265b28fcd1b9240c0f12@172.25.39.132:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -254,7 +298,7 @@
             }
           },
           "signatures": [
-            "2rLKKD7u1urtSBis0EhdgOx3svOtDsoMMnVHTwmYRNgBm/gEdOl3wAqsIpCanwKRXHlfvcuuxHh7k9skXb+15g=="
+            "9ipjjaERJVaRctxFhixbtDFglgo3lcZuaVEBayvGeMIblHL4DbDMtmQXG1raKEuAMgFx6IVJcr1wdHOi0CStZQ=="
           ]
         }
       ]
